@@ -1,0 +1,10 @@
+{
+  "zencoder.enableRepoIndexing": true
+}
+
+db.movies.insertOne({
+    title: 'The Matrix',
+    year: 1994,
+    genres: ['Action', 'Sci-Fi']
+})
+
